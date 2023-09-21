@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+#general{
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+
+/* Barre de navigation latérale  */
+.bloc_gauche{
+    font-size: 15px;
+    font-weight: bold;
+    width: 25%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+
+/* Première image logo */
+.logo{
+    width: 100%;
+}
+
+/* Deuxième image techno_info */
+.info_techno{
+    width: 40%;
+}
+
+
+/* C'est le bloc droit de la page d'acceuil */
+.bloc_droit{
+    font-size: 20px;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.bloc_droit p{
+    color: white;
+}
+
+
+/* C'est l'ensemble des icone sur la page d'acceuil */
+i{
+    color: black;
+    margin-left: 5px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.bloc_gauche a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bloc_gauche a:hover{
+    background-color: yellow;
+    color: purple;
+}
+
+
+
+
+/* C'est l'icole à droite sur la barre de rechercher  */
+.fa-bars{
+    float: right;
+    color: black;
+    padding: 15px;
+}
+
+
+/* Barre de recherche sur la barre de navigation Latérale */
+.search-bar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
